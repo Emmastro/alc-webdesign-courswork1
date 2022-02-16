@@ -1,0 +1,116 @@
+
+body {
+	font-family: 'Josefin Sans', serif;
+	color: rgba(0, 0, 0, 0.8);
+
+  background-color: #FAFAFA;
+  text-align: center;
+  margin: 0;
+
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 15% 0 15%;
+}
+
+#banner {
+  background-image: url('../images/drc.jpeg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+  display:block;
+}
+
+#banner h1{
+  padding-top: 200px;
+  font-size: 5em;
+}
+
+#banner h2{
+  
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+a, li, ul {
+  font-size: 1.2em;
+}
+
+p {
+  font-size:1.4em;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.block {
+  margin-top: 50px;
+  padding: 2.5%;
+  
+}
+
+.block img{
+  width: 100%;
+}
+
+
+.block-content{
+  height: 100%;
+  height: 100%;
+  align-items: stretch;
+}
+footer{
+  margin: 0 auto;
+  background-color: #D8DBE2;
+
+}
+
+footer #about{
+  max-width: 40%;
+}
+
+
+.service-group{
+  display: flex;
+}
+
+.service-group a{
+  text-decoration: none;
+}
+
+.service-group img:hover{
+  zoom: 3;
+  filter: alpha(opacity=50);
+  filter: contrast(1.3)
+
+}
+
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .block{
+    width: 90%;
+  }
+  
+  a, li, ul {
+    font-size: 1em;
+  }
+  
+  p {
+    font-size:1.1em;
+  }
+}
