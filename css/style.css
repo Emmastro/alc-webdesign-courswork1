@@ -14,8 +14,8 @@ main {
   padding: 0 15% 0 15%;
 }
 
-#banner {
-  background-image: url('../images/drc.jpeg');
+.banner {
+  background-image: url('../images/michail-dementiev-E0LpPXeHGAM-unsplash.jpg');
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,15 +24,16 @@ main {
   display:block;
 }
 
-#banner h1{
+.banner h1{
   padding-top: 200px;
   font-size: 5em;
+  color: whitesmoke
 }
 
-#banner h2{
-  
+.banner h2{
+
   font-size: 2em;
-  color: rgb(0, 0, 0);
+  color: whitesmoke
 }
 
 a, li, ul {
@@ -65,6 +66,13 @@ p {
   width: 100%;
 }
 
+.block-2 img{
+  max-width: 2000px;
+}
+
+.block-4 img {
+  max-width: 1000px;
+}
 
 .block-content{
   height: 100%;
@@ -73,10 +81,18 @@ p {
 }
 footer{
   margin: 0 auto;
-  background-color: #D8DBE2;
+  background-color: #1d1c1c;
+  color: whitesmoke;
 
 }
 
+footer p{
+  color: whitesmoke;
+}
+
+footer a{
+  color: lightblue;
+}
 footer #about{
   max-width: 40%;
 }
@@ -113,4 +129,16 @@ footer #about{
   p {
     font-size:1.1em;
   }
+}
+
+@media (max-width: 320px) {
+
+  .banner h1{
+    font-size: 2em;
+  }
+
+  .banner h2{
+    font-size: 1em;
+  }
+  
 }
