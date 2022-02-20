@@ -7,7 +7,7 @@ Travel and Destination
 Health and Wellness
 Personal and Home
 Business
-## ** Entertainment **
+Entertainment
 You should provide at least (3) three services offered for each of the categories. There are features which should be added to the site each week. It is important to note that you will be assessed not only on the simple inclusion of the tags and style rules but on how well you incorporate them into your site and how appropriately you use the different features you have learnt to create a visually pleasing website that users find easy and enjoyable to use.
 Coursework Specifications
 The website should consist of the following links:
